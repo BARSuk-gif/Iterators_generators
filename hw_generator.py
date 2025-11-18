@@ -2,8 +2,8 @@ import types
 
 
 def flat_generator(list_of_list):
-    for sublшst in list_of_list:
-        for item in sublшst:
+    for sublist in list_of_list:
+        for item in sublist:
             yield item
 
 
